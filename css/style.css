@@ -3,10 +3,6 @@ body {
   padding: 0;
   font-family: "Noto Serif", serif;
 }
-/* 
-primary-color: #FF6666
-primary-hover-color: #E07C24
-*/
 .container {
   width: 1100px;
   margin: 25px auto;
