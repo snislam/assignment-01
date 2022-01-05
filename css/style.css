@@ -3,20 +3,9 @@ body {
   padding: 0;
   font-family: "Noto Serif", serif;
 }
-.container {
-  width: 1100px;
-  margin: 25px auto;
-}
-#header-area {
-  display: flex;
-}
-#header-area p {
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-#heading-area p {
-  padding-right: 50px;
-}
+
+/* Reuseable Css code here */
+
 h1 {
   font-size: 50px;
   margin-bottom: 10px;
@@ -34,23 +23,9 @@ p {
 a {
   text-decoration: none;
 }
-
-.heading-text {
-  width: 490px;
-}
-.heading-text h1 {
-  position: relative;
-  padding: 0 25px;
-}
-.heading-text h1::before {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 100px;
-  background: #e07c24;
-  left: 0;
-  top: 23px;
-  position: absolute;
+.container {
+  width: 1100px;
+  margin: 25px auto;
 }
 .col-6 {
   width: 48%;
@@ -79,7 +54,38 @@ a {
   color: #ff6666;
 }
 
+/* Header Area Css start */
+
+#header-area {
+  display: flex;
+}
+#header-area p {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+#heading-area p {
+  padding-right: 50px;
+}
+.heading-text {
+  width: 490px;
+}
+.heading-text h1 {
+  position: relative;
+  padding: 0 25px;
+}
+.heading-text h1::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 100px;
+  background: #e07c24;
+  left: 0;
+  top: 23px;
+  position: absolute;
+}
+
 /* Misssion section css */
+
 #mission-section h2 {
   text-align: center;
 }
@@ -111,6 +117,7 @@ a {
 }
 
 /* Documentation section */
+
 #documentation-section {
   padding-top: 35px;
   padding-bottom: 35px;
@@ -122,6 +129,7 @@ a {
 }
 
 /* Comunity Section */
+
 #comunity-section {
   display: flex;
   justify-content: space-between;
