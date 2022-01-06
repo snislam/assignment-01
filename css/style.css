@@ -96,7 +96,7 @@ a {
 }
 .mission-list-box div {
   width: 30%;
-  padding: 35px 25px;
+  padding: 15px 25px;
   margin: 10px 20px;
   border-radius: 10px;
 }
@@ -107,13 +107,13 @@ a {
   font-size: 16px;
 }
 .mission-list-box-1 {
-  background-color: #e07c2480;
+  background-color: #e07c246c;
 }
 .mission-list-box-2 {
-  background-color: #9b05d680;
+  background-color: #9b05d667;
 }
 .mission-list-box-3 {
-  background-color: #04b8af60;
+  background-color: #04b8af52;
 }
 
 /* Documentation section */
